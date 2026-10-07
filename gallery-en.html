@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pchum Ben Day - Gallery</title>
+    <link rel="stylesheet" href="css/gallery.css">
+</head>
+<body>
+
+<div class="page-container">
+    <header>
+        <div class="header-title">
+            <h1>Pchum Ben Day</h1>
+            <p>A Traditional Festival of Cambodia</p>
+        </div>
+        <div class="lang-switch">
+            <div class="lang-btn" onclick="toggleLanguage('en')">
+                <img class="flag" src="icons/uk-flag.png" alt="flag">
+                <span>English</span>
+            </div>
+            <div class="lang-btn" onclick="toggleLanguage('km')">
+                <img class="flag" src="icons/khmer-flag.png" alt="flag">
+                <span>Khmer</span>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <a href="index-en.html" id="a1">Home</a>
+        <a href="history-en.html" id="a2">History</a>
+        <a href="activities-en.html" id="a3">Activities</a>
+        <a href="gallery-en.html" class="active" id="a4">Gallery</a>
+    </nav>
+
+    <div class="content">
+        <h2>Pchum Ben Gallery</h2>
+        <p>Here are some pictures related to Pchum Ben Day.</p>
+        <div class="gallery-grid">
+            <div class="gallery-card">
+                <img src="images/pagoda.jpg" alt="Cambodian Temple">
+                <div class="card-body">
+                    <div class="card-title">Cambodian Temple</div>
+                    <div class="card-desc">People visit the pagoda during Pchum Ben.</div>
+                </div>
+            </div>
+            <div class="gallery-card">
+                <img src="images/gallery1.jpg" alt="Monks Receiving Offerings">
+                <div class="card-body">
+                    <div class="card-title">Monks Receiving Offerings</div>
+                    <div class="card-desc">Food and other items are offered to the monks.</div>
+                </div>
+            </div>
+            <div class="gallery-card">
+                <img src="images/gallery2.jpg" alt="Food Offerings">
+                <div class="card-body">
+                    <div class="card-title">Food Offerings</div>
+                    <div class="card-desc">Food, fruits, flowers and incense for ancestors.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+       <img class="flower" src="icons/flower.png" alt="flower"> <p id="p3">Pchum Ben Day - Khmer Culture and Tradition</p>
+    </footer>
+</div>
+
+<script src="js/gallery.js"></script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+   :root { 
+      --khmer-red: #cb4c08; 
+      --khmer-gold: #e5a93b; 
+      --bg-cream: #fbf7ee; 
+   }
+   body { 
+      font-family: 'Georgia', serif; 
+      background-color: var(--bg-cream); 
+      margin: 0; padding: 20px; 
+      color: #333; 
+   }
+   .page-container { 
+      max-width: 900px; 
+      margin: 0 auto; 
+      background: #fff; 
+      border: 1px solid #dcd1b4; 
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
+   }
+   header { 
+      background: url(../images/angkor-wat.jpg);
+      background-size: cover;
+      background-position: center;
+      padding: 15px 25px;
+      display: flex;
+      flex-direction: column; 
+      align-items: center;    
+      gap: 15px;              
+      position: relative;
+      overflow: hidden;
+   }
+   .header-title h1 { 
+      color: var(--khmer-red); 
+      margin: 0; 
+      font-size: 2em; 
+   }
+   .header-title p { 
+      margin: 4px 0 0; 
+      color: #2B2B2B; 
+      font-style: italic;
+      display: flex;
+      flex-direction: column; 
+      align-items: center; 
+   }
+   .lang-switch { 
+      display: flex; 
+      gap: 12px; 
+      position: absolute;
+      right: 25px;
+   }
+   .lang-btn { 
+      display: flex; 
+      flex-direction: column; 
+      align-items: center; 
+      cursor: pointer; 
+      font-size: 0.8em;
+   }
+   .flag { 
+      width: 28px; 
+      height: 18px; 
+      border: 1px solid #ccc; 
+      border-radius: 2px; 
+   }
+   nav { 
+      background-color: #f2e3c6; 
+      display: flex; 
+      border-bottom: 1px solid #d4c19c; 
+   }
+   nav a { 
+      flex: 1; 
+      text-align: center; 
+      padding: 10px 0; 
+      text-decoration: none; 
+      color: blue; 
+      font-weight: bold; 
+      font-size: 0.95em;
+      transition: all 0.2s; 
+   }
+   nav a.active { 
+      background-color: var(--khmer-red); 
+      color: white; 
+   }
+   .content { 
+      background: url(../images/flower-bg.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 25px; 
+   }
+   h2 { 
+      color: var(--khmer-red); 
+      margin-top: 0; 
+   }
+   .grid-layout { 
+      display: flex; 
+      gap: 25px; 
+      align-items: 
+      flex-start; }
+   .activities-list { 
+      flex: 1; 
+      display: flex; 
+      flex-direction: column; 
+      gap: 12px; }
+   .activity-item { 
+      display: flex; 
+      gap: 12px; 
+      align-items: center; 
+      background: #fffdf8; 
+      padding: 8px 12px; 
+      border-left: 3px solid var(--khmer-gold); 
+   }
+   .activity-icon { 
+      width: 100px;        
+   }
+   .activity-food{
+      width: 100px;
+      margin-left: 10px;
+      margin-right: -10px;
+   }
+   .activity-people {
+      width: 100px;
+      margin-left: 5px;
+      margin-right: -5px;
+   }
+   .activity-text strong { 
+      color: blue; 
+      display: block; 
+   }
+   .img-card { 
+      width: 300px; 
+      height: auto; 
+      text-align: center;
+   }
+   .img-card img { 
+      width: 100%; 
+      border-radius: 4px; 
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15); 
+   }
+   footer { 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background-color: #f2e3c6; 
+      padding: 10px 25px; 
+      text-align: center; 
+      font-size: 0.85em; 
+      color: #666; 
+      border-top: 1px solid #d4c19c; 
+   }
+    .flower{
+      width: 30px;
+      height: 40px;
+      display: inline-block;
+   }
+
+   nav a:hover {
+      background-color: #cb5d21;
+      color: white;
+   }
